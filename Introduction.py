@@ -4,49 +4,51 @@
 # 00 - First Hello World
 print("Hello World")
 
-# 01 - Variables
-a = 5
-b = "John"
-b2 = 'John2'
-c = str(2)
-d = str("log")
-e = float(2)
-f = 0.2
+def RunCode():
 
-g, h, i = "Orange", "Banana", "Cherry"
-j = k = l = "Orange"
+  # 01 - Variables
+  a = 5
+  b = "John"
+  b2 = 'John2'
+  c = str(2)
+  d = str("log")
+  e = float(2)
+  f = 0.2
 
-fruits = ["apple", "banana", "cherry"]
-m, n, o = fruits
+  g, h, i = "Orange", "Banana", "Cherry"
+  j = k = l = "Orange"
 
-print(a, b, c)
+  fruits = ["apple", "banana", "cherry"]
+  m, n, o = fruits
 
-z = -87.7e100 # scientific number
-z = 1j   # complex number
+  print(a, b, c)
 
-# 02 - If else
+  z = -87.7e100 # scientific number
+  z = 1j   # complex number
 
-a = 33
-b = 33
+  # 02 - If else
 
-if b > a:
-  print("b is greater than a")
-elif a == b:
-  print("a and b are equal")
+  a = 33
+  b = 33
 
-# 03 - Loops
+  if b > a:
+    print("b is greater than a")
+  elif a == b:
+    print("a and b are equal")
 
-## While
-i = 1
-while i < 6:
-  print(i)
-  i += 1
+  # 03 - Loops
 
-##For
-fruits = ["apple", "banana", "cherry"]
-for x in fruits:
-  print(x)
+  ## While
+  i = 1
+  while i < 6:
+    print(i)
+    i += 1
 
-# Functions
-def my_function():
-  print("Hello from a function")
+  ##For
+  fruits = ["apple", "banana", "cherry"]
+  for x in fruits:
+    print(x)
+
+
+if __name__ == "__main__":
+  RunCode()
